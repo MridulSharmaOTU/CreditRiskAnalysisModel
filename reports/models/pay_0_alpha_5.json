@@ -1,0 +1,102 @@
+{
+  "format_version": 1,
+  "model_type": "segmented",
+  "training_size": 21000,
+  "training_defaults": 4645,
+  "portfolio_pd": 0.2211904761904762,
+  "use_credit_limit": false,
+  "n_limit_bands": 5,
+  "smoothing": 5.0,
+  "credit_limit_cutoffs": [],
+  "status_table": [
+    {
+      "PAY_0": -2.0,
+      "customers": 1933,
+      "defaults": 244.0,
+      "raw_pd": 0.12622866011381273,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.1264736596392943
+    },
+    {
+      "PAY_0": -1.0,
+      "customers": 3971,
+      "defaults": 674.0,
+      "raw_pd": 0.1697305464618484,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.16979525965315706
+    },
+    {
+      "PAY_0": 0.0,
+      "customers": 10285,
+      "defaults": 1300.0,
+      "raw_pd": 0.12639766650461837,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.12644372715072424
+    },
+    {
+      "PAY_0": 1.0,
+      "customers": 2616,
+      "defaults": 895.0,
+      "raw_pd": 0.34212538226299694,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.3418946785123817
+    },
+    {
+      "PAY_0": 2.0,
+      "customers": 1887,
+      "defaults": 1311.0,
+      "raw_pd": 0.6947535771065183,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.6935020889962751
+    },
+    {
+      "PAY_0": 3.0,
+      "customers": 213,
+      "defaults": 163.0,
+      "raw_pd": 0.7652582159624414,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.7527795980777632
+    },
+    {
+      "PAY_0": 4.0,
+      "customers": 51,
+      "defaults": 35.0,
+      "raw_pd": 0.6862745098039216,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.644749149659864
+    },
+    {
+      "PAY_0": 5.0,
+      "customers": 13,
+      "defaults": 5.0,
+      "raw_pd": 0.38461538461538464,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.3392195767195767
+    },
+    {
+      "PAY_0": 6.0,
+      "customers": 10,
+      "defaults": 6.0,
+      "raw_pd": 0.6,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.4737301587301587
+    },
+    {
+      "PAY_0": 7.0,
+      "customers": 8,
+      "defaults": 6.0,
+      "raw_pd": 0.75,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.5466117216117217
+    },
+    {
+      "PAY_0": 8.0,
+      "customers": 13,
+      "defaults": 6.0,
+      "raw_pd": 0.46153846153846156,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.3947751322751323
+    }
+  ],
+  "segment_table": []
+}

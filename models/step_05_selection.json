@@ -1,0 +1,173 @@
+{
+  "step": 5,
+  "selected_model_id": "calibrated_isotonic",
+  "selected_base_model_id": "optimized_engineered",
+  "calibration_method": "isotonic",
+  "alternative_threshold": 0.3,
+  "default_threshold": 0.5,
+  "historical_reference_id": "pay_0_limit_alpha_5",
+  "model_names": {
+    "portfolio": "Historical portfolio",
+    "pay_0_alpha_5": "Historical PAY_0",
+    "pay_0_limit_alpha_5": "Historical PAY_0 + limit",
+    "initial_logistic": "Initial LR",
+    "optimized_original": "Optimized LR (original)",
+    "optimized_engineered": "Optimized LR (engineered)",
+    "calibrated_sigmoid": "Calibrated LR (sigmoid)",
+    "calibrated_isotonic": "Calibrated LR (isotonic)"
+  },
+  "test_model_ids": [
+    "portfolio",
+    "pay_0_alpha_5",
+    "pay_0_limit_alpha_5",
+    "initial_logistic",
+    "optimized_original",
+    "optimized_engineered",
+    "calibrated_isotonic"
+  ],
+  "model_paths": {
+    "portfolio": "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\portfolio.json",
+    "pay_0_alpha_5": "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\pay_0_alpha_5.json",
+    "pay_0_limit_alpha_5": "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\pay_0_limit_alpha_5.json",
+    "initial_logistic": "F:\\Old Assignments\\Real World\\Credit Risk Project\\models\\logistic_pd_initial.joblib",
+    "optimized_original": "F:\\Old Assignments\\Real World\\Credit Risk Project\\models\\logistic_pd_original.joblib",
+    "optimized_engineered": "F:\\Old Assignments\\Real World\\Credit Risk Project\\models\\logistic_pd_engineered.joblib",
+    "calibrated_isotonic": "F:\\Old Assignments\\Real World\\Credit Risk Project\\models\\logistic_pd_pipeline.joblib"
+  },
+  "dataset_paths": {
+    "train": "F:\\Old Assignments\\Real World\\Credit Risk Project\\data\\processed\\train.csv",
+    "validation": "F:\\Old Assignments\\Real World\\Credit Risk Project\\data\\processed\\validation.csv",
+    "test": "F:\\Old Assignments\\Real World\\Credit Risk Project\\data\\processed\\test.csv"
+  },
+  "dataset_hashes": {
+    "train": "b76bc694a2cdf700ec31c3cf2eb14da1f29fc1840c696413f27b7a20646f12da",
+    "validation": "d04eb5850779bd9525f5105ab367a0fc54bec44ecacb6b69c656427125899dbe",
+    "test": "9abd37b889a5ba83487637028f5da72bf75d9bdf563312e33e1cf71873c4a662"
+  },
+  "protected_files": {
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\data\\processed\\train.csv": "b76bc694a2cdf700ec31c3cf2eb14da1f29fc1840c696413f27b7a20646f12da",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\data\\processed\\validation.csv": "d04eb5850779bd9525f5105ab367a0fc54bec44ecacb6b69c656427125899dbe",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\data\\processed\\test.csv": "9abd37b889a5ba83487637028f5da72bf75d9bdf563312e33e1cf71873c4a662",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\main.py": "6563d21b3433dc3f5e79a5660057226151f3709a86b2f2bddedb2b8a3c9e0283",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\historical_pd.py": "44488cf19254e21a431a2915751d72430c515160171b10e0bd5ce58958301621",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\run_step_04.py": "5bfb2eafb53df4d669ebbcd8d775a54a9882d650799532b3a180db04a545821e",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\tests\\test_historical_pd.py": "87d856b50c1ccffa04b299b4b8c667d5bda306d3f0ba83bfd3cfb2b501fd2918",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\step_04_historical_pd.md": "6f9ebcfba76e4a2939b9cfebefc8560369dc1834482ec2e869fb156fe8ccc934",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\step_04_run_manifest.json": "d36a27ce8f340caf694b194a96b586f0e1b64efe6e632bebc3eb1776b0cfc1de",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\figures\\step_04_calibration.png": "440256efd1b2d9a47a1696549f242fa0d5c63402063d703804bebac49cfaaa14",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\figures\\step_04_default_by_pay_0.png": "7df77f38e7bd426eb028fb8e2e523cd6440ace23b0289460facd51e572bef024",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\figures\\step_04_risk_group_calibration.png": "baa2c91f0737bde179b2b552ae9907197205a7595018c6d192686b3477d4367e",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\figures\\step_04_validation_scores.png": "05f0123efeb124db9e0136cdc043d18b1d89ab8ebc840fa3b7e3b70536830084",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\pay_0_alpha_5.json": "ee40603df7ed1297353ceb4aa41928a6361865e9adad902441fe8ecc878ad568",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\pay_0_limit_alpha_5.json": "3c76bc59d0ab2d7b9773af62f8e3e9652b36ba3ca1d12e6bfba02e17e4d4b276",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\portfolio.json": "d4028747c06ba13414d4f6668e3258cd2333d898664d6ac9592afe89ac483e15",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\selection.json": "15b923e35c8c985db4ec5f50a5c62b6da83d039ed421eafa63979c2f66c22788",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\pay_0_alpha_5_training_status.csv": "d5af970c5064e3bd6ffd1aef13e0bb283ba01e3cdb207305a42df0a4db7773e3",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\pay_0_alpha_5_validation_segments.csv": "5be2dc5074132890115d5748bbc58a184edd9e2897006abdbc13d3479bc8374f",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\pay_0_limit_alpha_5_training_segments.csv": "7574fdf1d9c3a678836e131772cd54c0d0a9e6b521c6b1a7142ca5342ef9df09",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\pay_0_limit_alpha_5_training_status.csv": "d5af970c5064e3bd6ffd1aef13e0bb283ba01e3cdb207305a42df0a4db7773e3",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\pay_0_limit_alpha_5_validation_segments.csv": "c4ed984db75a0f4cf337e7636b8d592702036700653269f136e92d24f1995a3b",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\step_04_calibration.csv": "7202447c4cdabd9a33ad3a70bad2c29545f695cd775b643cfb20091e6e39dd4d",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\step_04_risk_groups.csv": "2b97390b32620eda82a50215f37cbc197023d4eb1e1a92400f7ac9372325d88b",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\step_04_test_portfolio_predictions.csv": "8128d3dd405a72af0db24010de5e79b9e199ea07d0a329bdfc2315cfdd8eec84",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\step_04_tuning_results.csv": "c5dfb3d0c8ea5c000836968587a71034b1e1e5e618dd01ee227833bf2d48f129",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\step_04_validation_metrics.csv": "bbb395f2aa54e381b5acb2a279cf03c1e9dbefa4f8e5f4e18fd30a1fe1d1d562",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\step_04_validation_predictions.csv": "dbb969126afe960a1c2d2bc11d9575dddbb2f4f866200e6bb18f0c5f05afb055"
+  },
+  "cv_best": [
+    {
+      "feature_family": "original",
+      "C": 1.0,
+      "regularization": "L1",
+      "mean_cv_log_loss": 0.43614115951367055,
+      "sd_cv_log_loss": 0.005656309701504634,
+      "mean_cv_brier": 0.1359827419844656
+    },
+    {
+      "feature_family": "engineered",
+      "C": 0.1,
+      "regularization": "L1",
+      "mean_cv_log_loss": 0.4328346650239559,
+      "sd_cv_log_loss": 0.005676847311236197,
+      "mean_cv_brier": 0.1351171367356552
+    }
+  ],
+  "C_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0
+  ],
+  "cv_folds": 5,
+  "random_state": 42,
+  "selection_rule": "Training CV log loss within family; validation log loss then Brier across families; calibration requires both errors to improve.",
+  "raw_features": [
+    "LIMIT_BAL",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6"
+  ],
+  "engineered_features": [
+    "utilization_recent",
+    "utilization_mean",
+    "payment_to_previous_bill",
+    "payment_to_previous_bills_5m",
+    "no_positive_previous_bill",
+    "delinquent_months",
+    "max_delay",
+    "balance_change_to_limit"
+  ],
+  "excluded_demographics": [
+    "SEX",
+    "AGE",
+    "MARRIAGE",
+    "EDUCATION"
+  ],
+  "logistic_intercept": -1.3568408608348919,
+  "logistic_iterations": [
+    15
+  ],
+  "categorical_references": {
+    "PAY_0": -2.0,
+    "PAY_2": -2.0,
+    "PAY_3": -2.0,
+    "PAY_4": -2.0,
+    "PAY_5": -2.0,
+    "PAY_6": -2.0
+  },
+  "selected_fit_rows": 21000,
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2",
+    "joblib": "1.6.0"
+  },
+  "frozen_model_hashes": {
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\portfolio.json": "d4028747c06ba13414d4f6668e3258cd2333d898664d6ac9592afe89ac483e15",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\pay_0_alpha_5.json": "ee40603df7ed1297353ceb4aa41928a6361865e9adad902441fe8ecc878ad568",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\models\\pay_0_limit_alpha_5.json": "3c76bc59d0ab2d7b9773af62f8e3e9652b36ba3ca1d12e6bfba02e17e4d4b276",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\models\\logistic_pd_initial.joblib": "6be475b5393238c589cb686b9f2215b38b9d5f77da07459d2715565077ef9327",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\models\\logistic_pd_original.joblib": "617a18e8b345404d5b09bd1ef26a8975eea506de9429099613f0f4094f5a91a8",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\models\\logistic_pd_engineered.joblib": "8f5be28959f4a783de37e62383d2112351dd89424aa1ed1b61803796b6439146",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\models\\logistic_pd_pipeline.joblib": "aa39a63c6898bd02448c5271518a85ef409bdb14eee2203c00beaa6086f15360"
+  },
+  "logistic_source_sha256": "5b82e5689d6b82bbfc33161d6e29afe5603372919d6dfcc5d5313bd5663e3ecb"
+}

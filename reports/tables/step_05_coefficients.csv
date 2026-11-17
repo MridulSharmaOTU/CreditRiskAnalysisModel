@@ -1,0 +1,65 @@
+feature,coefficient,odds_ratio,direction,comparison,training_mean,training_standard_deviation,absolute_coefficient
+PAY_0_2.0,1.2621052868848428,3.5328513292163457,higher odds,encoded category versus PAY_0=-2,,,1.2621052868848428
+PAY_0_3.0,0.8825567057689158,2.4170715540421157,higher odds,encoded category versus PAY_0=-2,,,0.8825567057689158
+PAY_0_0.0,-0.6043586869254212,0.5464247436286326,lower odds,encoded category versus PAY_0=-2,,,0.6043586869254212
+max_delay,0.32603281967314846,1.385460838498511,higher odds,one training standard deviation increase,0.6832380952380952,1.0656743853971578,0.32603281967314846
+PAY_3_2.0,0.273457549331879,1.314501556558315,higher odds,encoded category versus PAY_3=-2,,,0.273457549331879
+PAY_5_2.0,0.2521905491192388,1.2868412203855315,higher odds,encoded category versus PAY_5=-2,,,0.2521905491192388
+PAY_6_0.0,-0.23639520747441875,0.789468608376695,lower odds,encoded category versus PAY_6=-2,,,0.23639520747441875
+PAY_4_2.0,0.1966943850595689,1.217371936796601,higher odds,encoded category versus PAY_4=-2,,,0.1966943850595689
+PAY_AMT2,-0.18984730323262575,0.8270854175711716,lower odds,one training standard deviation increase,5912.902428571429,20701.79522535721,0.18984730323262575
+LIMIT_BAL,-0.1896161934772782,0.8272765871694067,lower odds,one training standard deviation increase,167499.14285714287,129763.96006826642,0.1896161934772782
+payment_to_previous_bills_5m,-0.15402147632123578,0.8572536101598471,lower odds,one training standard deviation increase,0.35837175356631995,0.4580087993945186,0.15402147632123578
+PAY_0_1.0,0.11088650991085347,1.1172681008026186,higher odds,encoded category versus PAY_0=-2,,,0.11088650991085347
+PAY_3_0.0,0.10894879087244196,1.1151052453125632,higher odds,encoded category versus PAY_3=-2,,,0.10894879087244196
+PAY_AMT1,-0.10462880328726484,0.9006587821236272,lower odds,one training standard deviation increase,5654.306714285714,16424.577191832068,0.10462880328726484
+no_positive_previous_bill,0.08757254852288497,1.0915214498394084,higher odds,one training standard deviation increase,0.10433333333333333,0.305692474373984,0.08757254852288497
+utilization_recent,0.08043282855385517,1.0837560467363132,higher odds,one training standard deviation increase,0.4233382257520955,0.40970727245333977,0.08043282855385517
+BILL_AMT3,0.06496392554193628,1.0671205278950944,higher odds,one training standard deviation increase,46983.414666666664,68725.10117570653,0.06496392554193628
+PAY_3_-1.0,0.059457034676888156,1.0612601626141767,higher odds,encoded category versus PAY_3=-2,,,0.059457034676888156
+PAY_2_2.0,0.05540078086834219,1.0569641408053987,higher odds,encoded category versus PAY_2=-2,,,0.05540078086834219
+PAY_AMT6,-0.04212669671718244,0.9587483026146723,lower odds,one training standard deviation increase,5234.141428571428,17649.84807076922,0.04212669671718244
+PAY_0_-1.0,0.02808826280047542,1.0284864575104136,higher odds,encoded category versus PAY_0=-2,,,0.02808826280047542
+PAY_2_-1.0,0.023524513658851397,1.02380339760624,higher odds,encoded category versus PAY_2=-2,,,0.023524513658851397
+balance_change_to_limit,-0.022053673726217436,0.9781877306617247,lower odds,one training standard deviation increase,0.012841289706488845,0.14950040951722351,0.022053673726217436
+PAY_5_0.0,-0.02128275376487608,0.9789421258610275,lower odds,encoded category versus PAY_5=-2,,,0.02128275376487608
+PAY_5_4.0,-0.0196391166645598,0.9805524745100116,lower odds,encoded category versus PAY_5=-2,,,0.0196391166645598
+PAY_AMT4,-0.0148079296773526,0.985301168543196,lower odds,one training standard deviation increase,4876.2013809523805,15458.695534591772,0.0148079296773526
+BILL_AMT2,0.014698676799970858,1.0148072335780052,higher odds,one training standard deviation increase,49140.8039047619,71161.00437760586,0.014698676799970858
+PAY_AMT5,-0.01059283163644178,0.9894630748278781,lower odds,one training standard deviation increase,4819.56,15155.661259141041,0.01059283163644178
+BILL_AMT5,-0.006966701526502364,0.9930575096818637,lower odds,one training standard deviation increase,40325.76452380952,61007.42100216621,0.006966701526502364
+PAY_AMT3,-0.0015002494500731772,0.9985008753615634,lower odds,one training standard deviation increase,5252.244523809524,18016.08537571405,0.0015002494500731772
+BILL_AMT1,0.0,1.0,zero coefficient,one training standard deviation increase,51194.21880952381,73632.22909541898,0.0
+BILL_AMT6,0.0,1.0,zero coefficient,one training standard deviation increase,38837.678,59551.82586584508,0.0
+PAY_2_1.0,0.0,1.0,zero coefficient,encoded category versus PAY_2=-2,,,0.0
+PAY_2_0.0,0.0,1.0,zero coefficient,encoded category versus PAY_2=-2,,,0.0
+PAY_0_4.0,0.0,1.0,zero coefficient,encoded category versus PAY_0=-2,,,0.0
+PAY_0_infrequent_sklearn,0.0,1.0,zero coefficient,encoded category versus PAY_0=-2,,,0.0
+delinquent_months,0.0,1.0,zero coefficient,one training standard deviation increase,0.8391904761904762,1.5563073854494605,0.0
+BILL_AMT4,0.0,1.0,zero coefficient,one training standard deviation increase,43314.44423809524,64427.54422286461,0.0
+utilization_mean,0.0,1.0,zero coefficient,one training standard deviation increase,0.37251618434973943,0.35122504489960993,0.0
+payment_to_previous_bill,0.0,1.0,zero coefficient,one training standard deviation increase,0.3145906869858283,0.46695094474703486,0.0
+PAY_3_3.0,0.0,1.0,zero coefficient,encoded category versus PAY_3=-2,,,0.0
+PAY_3_4.0,0.0,1.0,zero coefficient,encoded category versus PAY_3=-2,,,0.0
+PAY_4_-1.0,0.0,1.0,zero coefficient,encoded category versus PAY_4=-2,,,0.0
+PAY_3_infrequent_sklearn,0.0,1.0,zero coefficient,encoded category versus PAY_3=-2,,,0.0
+PAY_2_infrequent_sklearn,0.0,1.0,zero coefficient,encoded category versus PAY_2=-2,,,0.0
+PAY_2_5.0,0.0,1.0,zero coefficient,encoded category versus PAY_2=-2,,,0.0
+PAY_2_4.0,0.0,1.0,zero coefficient,encoded category versus PAY_2=-2,,,0.0
+PAY_2_3.0,0.0,1.0,zero coefficient,encoded category versus PAY_2=-2,,,0.0
+PAY_4_5.0,0.0,1.0,zero coefficient,encoded category versus PAY_4=-2,,,0.0
+PAY_4_4.0,0.0,1.0,zero coefficient,encoded category versus PAY_4=-2,,,0.0
+PAY_4_3.0,0.0,1.0,zero coefficient,encoded category versus PAY_4=-2,,,0.0
+PAY_4_0.0,0.0,1.0,zero coefficient,encoded category versus PAY_4=-2,,,0.0
+PAY_5_-1.0,0.0,1.0,zero coefficient,encoded category versus PAY_5=-2,,,0.0
+PAY_4_infrequent_sklearn,0.0,1.0,zero coefficient,encoded category versus PAY_4=-2,,,0.0
+PAY_5_3.0,0.0,1.0,zero coefficient,encoded category versus PAY_5=-2,,,0.0
+PAY_4_7.0,0.0,1.0,zero coefficient,encoded category versus PAY_4=-2,,,0.0
+PAY_5_7.0,0.0,1.0,zero coefficient,encoded category versus PAY_5=-2,,,0.0
+PAY_5_infrequent_sklearn,0.0,1.0,zero coefficient,encoded category versus PAY_5=-2,,,0.0
+PAY_6_-1.0,0.0,1.0,zero coefficient,encoded category versus PAY_6=-2,,,0.0
+PAY_6_2.0,0.0,1.0,zero coefficient,encoded category versus PAY_6=-2,,,0.0
+PAY_6_3.0,0.0,1.0,zero coefficient,encoded category versus PAY_6=-2,,,0.0
+PAY_6_4.0,0.0,1.0,zero coefficient,encoded category versus PAY_6=-2,,,0.0
+PAY_6_7.0,0.0,1.0,zero coefficient,encoded category versus PAY_6=-2,,,0.0
+PAY_6_infrequent_sklearn,0.0,1.0,zero coefficient,encoded category versus PAY_6=-2,,,0.0
