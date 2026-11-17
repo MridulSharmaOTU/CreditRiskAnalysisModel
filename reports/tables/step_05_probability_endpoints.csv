@@ -1,0 +1,15 @@
+split,model_id,zero_pd_customers,defaults_at_zero_pd,one_pd_customers,nondefaults_at_one_pd
+validation,portfolio,0,0,0,0
+validation,pay_0_alpha_5,0,0,0,0
+validation,pay_0_limit_alpha_5,0,0,0,0
+validation,initial_logistic,0,0,0,0
+validation,optimized_original,0,0,0,0
+validation,optimized_engineered,0,0,0,0
+validation,calibrated_isotonic,2,0,0,0
+test,portfolio,0,0,0,0
+test,pay_0_alpha_5,0,0,0,0
+test,pay_0_limit_alpha_5,0,0,0,0
+test,initial_logistic,0,0,0,0
+test,optimized_original,0,0,0,0
+test,optimized_engineered,0,0,0,0
+test,calibrated_isotonic,3,2,0,0

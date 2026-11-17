@@ -1,0 +1,77 @@
+{
+  "step": 4,
+  "inputs": {
+    "train": {
+      "path": "F:\\Old Assignments\\Real World\\Credit Risk Project\\data\\processed\\train.csv",
+      "sha256": "b76bc694a2cdf700ec31c3cf2eb14da1f29fc1840c696413f27b7a20646f12da"
+    },
+    "validation": {
+      "path": "F:\\Old Assignments\\Real World\\Credit Risk Project\\data\\processed\\validation.csv",
+      "sha256": "d04eb5850779bd9525f5105ab367a0fc54bec44ecacb6b69c656427125899dbe"
+    },
+    "test": {
+      "path": "F:\\Old Assignments\\Real World\\Credit Risk Project\\data\\processed\\test.csv",
+      "sha256": "9abd37b889a5ba83487637028f5da72bf75d9bdf563312e33e1cf71873c4a662"
+    }
+  },
+  "input_files_unchanged": true,
+  "split_summary": {
+    "train": {
+      "customers": 21000,
+      "defaults": 4645,
+      "default_rate": 0.2211904761904762
+    },
+    "validation": {
+      "customers": 4500,
+      "defaults": 995,
+      "default_rate": 0.22111111111111112
+    },
+    "test_descriptive_only": {
+      "customers": 4500,
+      "defaults": 996,
+      "default_rate": 0.22133333333333333
+    }
+  },
+  "smoothing_grid": [
+    5,
+    20,
+    50,
+    100,
+    200
+  ],
+  "selection_order": [
+    "log_loss",
+    "brier_score",
+    "n_segmentation_features",
+    "model_id"
+  ],
+  "selected_segmented_model": "pay_0_limit_alpha_5",
+  "recommended_baseline": "pay_0_limit_alpha_5",
+  "retained_models": [
+    "portfolio",
+    "pay_0_alpha_5",
+    "pay_0_limit_alpha_5"
+  ],
+  "test_model_metrics_computed": false,
+  "test_segmented_predictions_computed": false,
+  "validation_prediction_sources": {
+    "pay_0_alpha_5": {
+      "PAY_0": 4500
+    },
+    "pay_0_limit_alpha_5": {
+      "PAY_0 + LIMIT_BAL": 4498,
+      "PAY_0": 2
+    }
+  },
+  "duplicate_audit": {
+    "train_duplicate_rows": 18,
+    "validation_duplicate_rows": 2,
+    "validation_feature_matches_training": 9
+  },
+  "versions": {
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.2"
+  }
+}

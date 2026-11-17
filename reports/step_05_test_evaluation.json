@@ -1,0 +1,19 @@
+{
+  "test_evaluation_passes": 1,
+  "observations": 4500,
+  "selection_sha256": "d5c4490404f88f2aabbb566bc8e79d4ddfca143e514d6c17b84b1f0717d7eda8",
+  "test_sha256": "9abd37b889a5ba83487637028f5da72bf75d9bdf563312e33e1cf71873c4a662",
+  "saved_evaluation_hashes": {
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\step_05_test_metrics.csv": "fc23f248d242a4862c58a9446fe469824d241cce4e193b6fdc85ae56940286c9",
+    "F:\\Old Assignments\\Real World\\Credit Risk Project\\reports\\tables\\step_05_test_predictions.csv": "aee12918a7cfaaa5dc33effe823c6607e6de8b659e883fda542028e8f7f7a745"
+  },
+  "models": [
+    "portfolio",
+    "pay_0_alpha_5",
+    "pay_0_limit_alpha_5",
+    "initial_logistic",
+    "optimized_original",
+    "optimized_engineered",
+    "calibrated_isotonic"
+  ]
+}

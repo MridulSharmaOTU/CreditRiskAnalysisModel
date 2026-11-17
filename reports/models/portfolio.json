@@ -1,0 +1,7 @@
+{
+  "format_version": 1,
+  "model_type": "portfolio",
+  "training_size": 21000,
+  "training_defaults": 4645,
+  "portfolio_pd": 0.2211904761904762
+}

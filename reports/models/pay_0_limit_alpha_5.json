@@ -1,0 +1,567 @@
+{
+  "format_version": 1,
+  "model_type": "segmented",
+  "training_size": 21000,
+  "training_defaults": 4645,
+  "portfolio_pd": 0.2211904761904762,
+  "use_credit_limit": true,
+  "n_limit_bands": 5,
+  "smoothing": 5.0,
+  "credit_limit_cutoffs": [
+    50000.0,
+    100000.0,
+    180000.0,
+    270000.0
+  ],
+  "status_table": [
+    {
+      "PAY_0": -2.0,
+      "customers": 1933,
+      "defaults": 244.0,
+      "raw_pd": 0.12622866011381273,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.1264736596392943
+    },
+    {
+      "PAY_0": -1.0,
+      "customers": 3971,
+      "defaults": 674.0,
+      "raw_pd": 0.1697305464618484,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.16979525965315706
+    },
+    {
+      "PAY_0": 0.0,
+      "customers": 10285,
+      "defaults": 1300.0,
+      "raw_pd": 0.12639766650461837,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.12644372715072424
+    },
+    {
+      "PAY_0": 1.0,
+      "customers": 2616,
+      "defaults": 895.0,
+      "raw_pd": 0.34212538226299694,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.3418946785123817
+    },
+    {
+      "PAY_0": 2.0,
+      "customers": 1887,
+      "defaults": 1311.0,
+      "raw_pd": 0.6947535771065183,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.6935020889962751
+    },
+    {
+      "PAY_0": 3.0,
+      "customers": 213,
+      "defaults": 163.0,
+      "raw_pd": 0.7652582159624414,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.7527795980777632
+    },
+    {
+      "PAY_0": 4.0,
+      "customers": 51,
+      "defaults": 35.0,
+      "raw_pd": 0.6862745098039216,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.644749149659864
+    },
+    {
+      "PAY_0": 5.0,
+      "customers": 13,
+      "defaults": 5.0,
+      "raw_pd": 0.38461538461538464,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.3392195767195767
+    },
+    {
+      "PAY_0": 6.0,
+      "customers": 10,
+      "defaults": 6.0,
+      "raw_pd": 0.6,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.4737301587301587
+    },
+    {
+      "PAY_0": 7.0,
+      "customers": 8,
+      "defaults": 6.0,
+      "raw_pd": 0.75,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.5466117216117217
+    },
+    {
+      "PAY_0": 8.0,
+      "customers": 13,
+      "defaults": 6.0,
+      "raw_pd": 0.46153846153846156,
+      "parent_pd": 0.2211904761904762,
+      "estimated_pd": 0.3947751322751323
+    }
+  ],
+  "segment_table": [
+    {
+      "PAY_0": -2.0,
+      "limit_band": 0,
+      "customers": 137,
+      "defaults": 16.0,
+      "raw_pd": 0.11678832116788321,
+      "parent_pd": 0.1264736596392943,
+      "estimated_pd": 0.11712935421265121
+    },
+    {
+      "PAY_0": -2.0,
+      "limit_band": 1,
+      "customers": 131,
+      "defaults": 14.0,
+      "raw_pd": 0.10687022900763359,
+      "parent_pd": 0.1264736596392943,
+      "estimated_pd": 0.1075909433690917
+    },
+    {
+      "PAY_0": -2.0,
+      "limit_band": 2,
+      "customers": 370,
+      "defaults": 45.0,
+      "raw_pd": 0.12162162162162163,
+      "parent_pd": 0.1264736596392943,
+      "estimated_pd": 0.12168631546185725
+    },
+    {
+      "PAY_0": -2.0,
+      "limit_band": 3,
+      "customers": 551,
+      "defaults": 65.0,
+      "raw_pd": 0.11796733212341198,
+      "parent_pd": 0.1264736596392943,
+      "estimated_pd": 0.11804382787445408
+    },
+    {
+      "PAY_0": -2.0,
+      "limit_band": 4,
+      "customers": 744,
+      "defaults": 104.0,
+      "raw_pd": 0.13978494623655913,
+      "parent_pd": 0.1264736596392943,
+      "estimated_pd": 0.13969608584538915
+    },
+    {
+      "PAY_0": -1.0,
+      "limit_band": 0,
+      "customers": 557,
+      "defaults": 153.0,
+      "raw_pd": 0.2746858168761221,
+      "parent_pd": 0.16979525965315706,
+      "estimated_pd": 0.27375262686524166
+    },
+    {
+      "PAY_0": -1.0,
+      "limit_band": 1,
+      "customers": 409,
+      "defaults": 74.0,
+      "raw_pd": 0.18092909535452323,
+      "parent_pd": 0.16979525965315706,
+      "estimated_pd": 0.18079462873977242
+    },
+    {
+      "PAY_0": -1.0,
+      "limit_band": 2,
+      "customers": 917,
+      "defaults": 171.0,
+      "raw_pd": 0.18647764449291168,
+      "parent_pd": 0.16979525965315706,
+      "estimated_pd": 0.18638717602848784
+    },
+    {
+      "PAY_0": -1.0,
+      "limit_band": 3,
+      "customers": 1001,
+      "defaults": 167.0,
+      "raw_pd": 0.16683316683316685,
+      "parent_pd": 0.16979525965315706,
+      "estimated_pd": 0.1668478889644789
+    },
+    {
+      "PAY_0": -1.0,
+      "limit_band": 4,
+      "customers": 1087,
+      "defaults": 109.0,
+      "raw_pd": 0.10027598896044158,
+      "parent_pd": 0.16979525965315706,
+      "estimated_pd": 0.10059430063943753
+    },
+    {
+      "PAY_0": 0.0,
+      "limit_band": 0,
+      "customers": 2925,
+      "defaults": 550.0,
+      "raw_pd": 0.18803418803418803,
+      "parent_pd": 0.12644372715072424,
+      "estimated_pd": 0.18792908485861898
+    },
+    {
+      "PAY_0": 0.0,
+      "limit_band": 1,
+      "customers": 1890,
+      "defaults": 262.0,
+      "raw_pd": 0.13862433862433862,
+      "parent_pd": 0.12644372715072424,
+      "estimated_pd": 0.13859219980778556
+    },
+    {
+      "PAY_0": 0.0,
+      "limit_band": 2,
+      "customers": 2132,
+      "defaults": 230.0,
+      "raw_pd": 0.10787992495309569,
+      "parent_pd": 0.12644372715072424,
+      "estimated_pd": 0.10792335921186412
+    },
+    {
+      "PAY_0": 0.0,
+      "limit_band": 3,
+      "customers": 1600,
+      "defaults": 135.0,
+      "raw_pd": 0.084375,
+      "parent_pd": 0.12644372715072424,
+      "estimated_pd": 0.0845060552247686
+    },
+    {
+      "PAY_0": 0.0,
+      "limit_band": 4,
+      "customers": 1738,
+      "defaults": 123.0,
+      "raw_pd": 0.07077100115074798,
+      "parent_pd": 0.12644372715072424,
+      "estimated_pd": 0.07093070489716215
+    },
+    {
+      "PAY_0": 1.0,
+      "limit_band": 0,
+      "customers": 834,
+      "defaults": 364.0,
+      "raw_pd": 0.4364508393285372,
+      "parent_pd": 0.3418946785123817,
+      "estimated_pd": 0.4358873341985243
+    },
+    {
+      "PAY_0": 1.0,
+      "limit_band": 1,
+      "customers": 409,
+      "defaults": 149.0,
+      "raw_pd": 0.3643031784841076,
+      "parent_pd": 0.3418946785123817,
+      "estimated_pd": 0.36403254442647803
+    },
+    {
+      "PAY_0": 1.0,
+      "limit_band": 2,
+      "customers": 495,
+      "defaults": 147.0,
+      "raw_pd": 0.296969696969697,
+      "parent_pd": 0.3418946785123817,
+      "estimated_pd": 0.2974189467851238
+    },
+    {
+      "PAY_0": 1.0,
+      "limit_band": 3,
+      "customers": 462,
+      "defaults": 129.0,
+      "raw_pd": 0.2792207792207792,
+      "parent_pd": 0.3418946785123817,
+      "estimated_pd": 0.27989180597978996
+    },
+    {
+      "PAY_0": 1.0,
+      "limit_band": 4,
+      "customers": 416,
+      "defaults": 106.0,
+      "raw_pd": 0.2548076923076923,
+      "parent_pd": 0.3418946785123817,
+      "estimated_pd": 0.2558419795547789
+    },
+    {
+      "PAY_0": 2.0,
+      "limit_band": 0,
+      "customers": 741,
+      "defaults": 513.0,
+      "raw_pd": 0.6923076923076923,
+      "parent_pd": 0.6935020889962751,
+      "estimated_pd": 0.6923156976474281
+    },
+    {
+      "PAY_0": 2.0,
+      "limit_band": 1,
+      "customers": 452,
+      "defaults": 325.0,
+      "raw_pd": 0.7190265486725663,
+      "parent_pd": 0.6935020889962751,
+      "estimated_pd": 0.7187472876257798
+    },
+    {
+      "PAY_0": 2.0,
+      "limit_band": 2,
+      "customers": 351,
+      "defaults": 246.0,
+      "raw_pd": 0.7008547008547008,
+      "parent_pd": 0.6935020889962751,
+      "estimated_pd": 0.7007514338342173
+    },
+    {
+      "PAY_0": 2.0,
+      "limit_band": 3,
+      "customers": 202,
+      "defaults": 137.0,
+      "raw_pd": 0.6782178217821783,
+      "parent_pd": 0.6935020889962751,
+      "estimated_pd": 0.6785870069805864
+    },
+    {
+      "PAY_0": 2.0,
+      "limit_band": 4,
+      "customers": 141,
+      "defaults": 90.0,
+      "raw_pd": 0.6382978723404256,
+      "parent_pd": 0.6935020889962751,
+      "estimated_pd": 0.6401884277053519
+    },
+    {
+      "PAY_0": 3.0,
+      "limit_band": 0,
+      "customers": 125,
+      "defaults": 98.0,
+      "raw_pd": 0.784,
+      "parent_pd": 0.7527795980777632,
+      "estimated_pd": 0.7827992153106832
+    },
+    {
+      "PAY_0": 3.0,
+      "limit_band": 1,
+      "customers": 41,
+      "defaults": 28.0,
+      "raw_pd": 0.6829268292682927,
+      "parent_pd": 0.7527795980777632,
+      "estimated_pd": 0.6905195215301917
+    },
+    {
+      "PAY_0": 3.0,
+      "limit_band": 2,
+      "customers": 24,
+      "defaults": 17.0,
+      "raw_pd": 0.7083333333333334,
+      "parent_pd": 0.7527795980777632,
+      "estimated_pd": 0.7159964824272006
+    },
+    {
+      "PAY_0": 3.0,
+      "limit_band": 3,
+      "customers": 17,
+      "defaults": 15.0,
+      "raw_pd": 0.8823529411764706,
+      "parent_pd": 0.7527795980777632,
+      "estimated_pd": 0.8529044541085825
+    },
+    {
+      "PAY_0": 3.0,
+      "limit_band": 4,
+      "customers": 6,
+      "defaults": 5.0,
+      "raw_pd": 0.8333333333333334,
+      "parent_pd": 0.7527795980777632,
+      "estimated_pd": 0.7967179991262561
+    },
+    {
+      "PAY_0": 4.0,
+      "limit_band": 0,
+      "customers": 38,
+      "defaults": 23.0,
+      "raw_pd": 0.6052631578947368,
+      "parent_pd": 0.644749149659864,
+      "estimated_pd": 0.6098545522860307
+    },
+    {
+      "PAY_0": 4.0,
+      "limit_band": 1,
+      "customers": 4,
+      "defaults": 3.0,
+      "raw_pd": 0.75,
+      "parent_pd": 0.644749149659864,
+      "estimated_pd": 0.6915273053665911
+    },
+    {
+      "PAY_0": 4.0,
+      "limit_band": 2,
+      "customers": 3,
+      "defaults": 3.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.644749149659864,
+      "estimated_pd": 0.777968218537415
+    },
+    {
+      "PAY_0": 4.0,
+      "limit_band": 3,
+      "customers": 1,
+      "defaults": 1.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.644749149659864,
+      "estimated_pd": 0.7039576247165534
+    },
+    {
+      "PAY_0": 4.0,
+      "limit_band": 4,
+      "customers": 5,
+      "defaults": 5.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.644749149659864,
+      "estimated_pd": 0.822374574829932
+    },
+    {
+      "PAY_0": 5.0,
+      "limit_band": 0,
+      "customers": 7,
+      "defaults": 2.0,
+      "raw_pd": 0.2857142857142857,
+      "parent_pd": 0.3392195767195767,
+      "estimated_pd": 0.3080081569664903
+    },
+    {
+      "PAY_0": 5.0,
+      "limit_band": 1,
+      "customers": 4,
+      "defaults": 2.0,
+      "raw_pd": 0.5,
+      "parent_pd": 0.3392195767195767,
+      "estimated_pd": 0.4106775426219871
+    },
+    {
+      "PAY_0": 5.0,
+      "limit_band": 2,
+      "customers": 1,
+      "defaults": 0.0,
+      "raw_pd": 0.0,
+      "parent_pd": 0.3392195767195767,
+      "estimated_pd": 0.28268298059964725
+    },
+    {
+      "PAY_0": 5.0,
+      "limit_band": 4,
+      "customers": 1,
+      "defaults": 1.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.3392195767195767,
+      "estimated_pd": 0.44934964726631393
+    },
+    {
+      "PAY_0": 6.0,
+      "limit_band": 0,
+      "customers": 4,
+      "defaults": 4.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.4737301587301587,
+      "estimated_pd": 0.7076278659611993
+    },
+    {
+      "PAY_0": 6.0,
+      "limit_band": 1,
+      "customers": 1,
+      "defaults": 0.0,
+      "raw_pd": 0.0,
+      "parent_pd": 0.4737301587301587,
+      "estimated_pd": 0.3947751322751323
+    },
+    {
+      "PAY_0": 6.0,
+      "limit_band": 2,
+      "customers": 2,
+      "defaults": 0.0,
+      "raw_pd": 0.0,
+      "parent_pd": 0.4737301587301587,
+      "estimated_pd": 0.33837868480725625
+    },
+    {
+      "PAY_0": 6.0,
+      "limit_band": 3,
+      "customers": 3,
+      "defaults": 2.0,
+      "raw_pd": 0.6666666666666666,
+      "parent_pd": 0.4737301587301587,
+      "estimated_pd": 0.5460813492063492
+    },
+    {
+      "PAY_0": 7.0,
+      "limit_band": 0,
+      "customers": 2,
+      "defaults": 2.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.5466117216117217,
+      "estimated_pd": 0.6761512297226584
+    },
+    {
+      "PAY_0": 7.0,
+      "limit_band": 1,
+      "customers": 3,
+      "defaults": 1.0,
+      "raw_pd": 0.3333333333333333,
+      "parent_pd": 0.5466117216117217,
+      "estimated_pd": 0.46663232600732607
+    },
+    {
+      "PAY_0": 7.0,
+      "limit_band": 3,
+      "customers": 2,
+      "defaults": 2.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.5466117216117217,
+      "estimated_pd": 0.6761512297226584
+    },
+    {
+      "PAY_0": 7.0,
+      "limit_band": 4,
+      "customers": 1,
+      "defaults": 1.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.5466117216117217,
+      "estimated_pd": 0.6221764346764348
+    },
+    {
+      "PAY_0": 8.0,
+      "limit_band": 0,
+      "customers": 7,
+      "defaults": 3.0,
+      "raw_pd": 0.42857142857142855,
+      "parent_pd": 0.3947751322751323,
+      "estimated_pd": 0.41448963844797176
+    },
+    {
+      "PAY_0": 8.0,
+      "limit_band": 1,
+      "customers": 3,
+      "defaults": 0.0,
+      "raw_pd": 0.0,
+      "parent_pd": 0.3947751322751323,
+      "estimated_pd": 0.24673445767195767
+    },
+    {
+      "PAY_0": 8.0,
+      "limit_band": 2,
+      "customers": 1,
+      "defaults": 1.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.3947751322751323,
+      "estimated_pd": 0.4956459435626102
+    },
+    {
+      "PAY_0": 8.0,
+      "limit_band": 4,
+      "customers": 2,
+      "defaults": 2.0,
+      "raw_pd": 1.0,
+      "parent_pd": 0.3947751322751323,
+      "estimated_pd": 0.5676965230536659
+    }
+  ]
+}
